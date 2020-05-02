@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f9fbbbf-dcec-443c-9bd5-eb9438bc791c">
+  <producedTypes>
+    <objectType typeId="ca329084-7143-47f3-b4d5-decf6a0ec692" valueTypeId="9dd9dad7-bc46-4be5-b833-6a450efbaae6"/>
+    <refType typeId="9631fc8a-f67d-4d53-9958-b1b196383110" valueTypeId="3080ebc5-134d-47ad-b060-3743264271d4"/>
+    <selectionType typeId="f21d4418-c3aa-44f8-8bf9-22bdec4c60b1" valueTypeId="db6f4b1b-4914-437b-a573-2b6d6b6f60e9"/>
+    <listType typeId="41cb221a-e170-4333-92c7-80dca2e79024" valueTypeId="44d0e061-75f8-4546-a513-ce0c66fffd7e"/>
+    <managerType typeId="94fa0ef1-96ba-4099-b75f-015be1dc7b8c" valueTypeId="0b3a0b90-3d24-457b-9604-4f103f22e095"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Товары.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1afe5b7a-9a85-48dc-884b-acdd77dcc07d">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e4b7c25a-2ff9-4535-bc57-1352aeaab5d3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
